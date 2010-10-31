@@ -25,4 +25,9 @@ public class FizzBuzzTest {
 		assertThat(target.fizzbuzz(5), is("Buzz")); 
 	}
 	
+	@Test
+	public void _15のときはFizzBuzz() throws Exception {
+		assertThat(target.fizzbuzz(15), is("FizzBuzz")); 
+	}
+	
 }
