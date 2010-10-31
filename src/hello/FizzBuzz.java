@@ -3,7 +3,8 @@ package hello;
 public class FizzBuzz {
 
 	public String FizzBuzz(int i) {
-		return "Fizz";
+		if (i == 3) return "Fizz";
+		return null;
 	}
 
 }
