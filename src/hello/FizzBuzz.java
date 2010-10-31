@@ -15,8 +15,8 @@ public class FizzBuzz {
 	}
 
 	public static String buzz(int i) {
-		// TODO Auto-generated method stub
-		return null;
+		if (i % 5 == 0) return "Buzz";
+		return "";
 	}
 
 }

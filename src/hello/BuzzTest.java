@@ -12,7 +12,7 @@ public class BuzzTest {
 	}
 	
 	@Test
-	public void _1のときは1() throws Exception {
-		assertThat(FizzBuzz.fizzbuzz(1), is("1")); 
+	public void _1のときは空白() throws Exception {
+		assertThat(FizzBuzz.buzz(1), is("")); 
 	}
 }
