@@ -30,4 +30,9 @@ public class FizzBuzzTest {
 		assertThat(target.fizzbuzz(15), is("FizzBuzz")); 
 	}
 	
+	@Test
+	public void _1のときは1() throws Exception {
+		assertThat(target.fizzbuzz(1), is("1")); 
+	}
+	
 }
