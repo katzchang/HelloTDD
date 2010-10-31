@@ -13,4 +13,10 @@ public class FizzBuzzTest {
 		assertThat(target.fizzbuzz(3), is("Fizz")); 
 	}
 	
+	@Test
+	public void _5のときはBuzz() throws Exception {
+		FizzBuzz target = new FizzBuzz();
+		assertThat(target.fizzbuzz(5), is("Buzz")); 
+	}
+	
 }
