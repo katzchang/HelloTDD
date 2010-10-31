@@ -2,9 +2,8 @@ package hello;
 
 public class FizzBuzz {
 
-	public String FizzBuzz() {
-		// TODO Auto-generated method stub
-		return null;
+	public String FizzBuzz(int i) {
+		return "Fizz";
 	}
 
 }
