@@ -11,7 +11,6 @@ public class FizzTest {
 		assertThat(FizzBuzz.fizz(3), is("Fizz")); 
 	}
 	
-	@Ignore
 	@Test
 	public void _1のときは1() throws Exception {
 		assertThat(FizzBuzz.fizzbuzz(1), is("1")); 
