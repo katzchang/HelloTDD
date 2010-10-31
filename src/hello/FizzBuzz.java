@@ -14,4 +14,9 @@ public class FizzBuzz {
 		return "";
 	}
 
+	public static String buzz(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
