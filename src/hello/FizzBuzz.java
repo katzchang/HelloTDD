@@ -2,7 +2,7 @@ package hello;
 
 public class FizzBuzz {
 
-	public String FizzBuzz(int i) {
+	public String fizzbuzz(int i) {
 		if (i == 3) return "Fizz";
 		return null;
 	}

@@ -10,7 +10,7 @@ public class FizzBuzzTest {
 	@Test
 	public void _3のときはFizz() throws Exception {
 		FizzBuzz target = new FizzBuzz();
-		assertThat(target.FizzBuzz(3), is("Fizz")); 
+		assertThat(target.fizzbuzz(3), is("Fizz")); 
 	}
 	
 }
