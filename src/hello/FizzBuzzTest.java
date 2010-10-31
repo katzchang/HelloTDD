@@ -8,31 +8,29 @@ import org.junit.Test;
 
 
 public class FizzBuzzTest {
-	FizzBuzz target;
 	
 	@Before
 	public void before() {
-		this.target = new FizzBuzz();
 	}
 	
 	@Test
 	public void _3のときはFizz() throws Exception {
-		assertThat(target.fizzbuzz(3), is("Fizz")); 
+		assertThat(FizzBuzz.fizzbuzz(3), is("Fizz")); 
 	}
 	
 	@Test
 	public void _5のときはBuzz() throws Exception {
-		assertThat(target.fizzbuzz(5), is("Buzz")); 
+		assertThat(FizzBuzz.fizzbuzz(5), is("Buzz")); 
 	}
 	
 	@Test
 	public void _15のときはFizzBuzz() throws Exception {
-		assertThat(target.fizzbuzz(15), is("FizzBuzz")); 
+		assertThat(FizzBuzz.fizzbuzz(15), is("FizzBuzz")); 
 	}
 	
 	@Test
 	public void _1のときは1() throws Exception {
-		assertThat(target.fizzbuzz(1), is("1")); 
+		assertThat(FizzBuzz.fizzbuzz(1), is("1")); 
 	}
 	
 }
