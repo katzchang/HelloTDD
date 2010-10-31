@@ -9,4 +9,9 @@ public class FizzBuzz {
 		return String.valueOf(i);
 	}
 
+	public static String fizz(int i) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
