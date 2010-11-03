@@ -5,7 +5,7 @@ public class FizzBuzz {
 	public static String fizzbuzz(int i) {
 		String fb = fizz(i) + buzz(i);
 		if (fb.isEmpty()) return String.valueOf(i);
-		else return fb;
+		return fb;
 	}
 
 	public static String fizz(int i) {
